@@ -1,0 +1,22 @@
+uuid: 68be184b-8587-4c87-b471-ada5c81a9425
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.actor
+id: node.actor.status
+field_name: status
+entity_type: node
+bundle: actor
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

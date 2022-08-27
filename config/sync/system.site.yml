@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: c9bd86b0-2606-417f-9104-71b54f0d3cee
+name: 'Drupal Hands On'
+mail: admin@example.com
+slogan: 'Drupal Hands On'
+page:
+  403: ''
+  404: ''
+  front: /featured-movies
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
