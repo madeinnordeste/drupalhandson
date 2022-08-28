@@ -10,7 +10,7 @@
 
 ### Confirm settings sync
 
-in web/sites/settings.ddev.php confirm sync config:
+in web/sites/settings.ddev.php for example, confirm sync config:
 
   ```php
   if (empty($settings['config_sync_directory'])) {
