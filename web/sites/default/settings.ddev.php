@@ -15,7 +15,7 @@ $driver = "mysql";
 // so use the host-side bind port on docker IP
 if (empty(getenv('DDEV_PHP_VERSION') && getenv('IS_DDEV_PROJECT') == 'true')) {
   $host = "127.0.0.1";
-  $port = 49176;
+  $port = 49197;
 }
 
 $databases['default']['default'] = array(
@@ -28,7 +28,7 @@ $databases['default']['default'] = array(
   'prefix' => "",
 );
 
-$settings['hash_salt'] = 'zbqfLDHwtzXrbkmIiUPKnSpJHIaibtBcTPJNsnIHZPbpWRQwPWhcbdwuQuINwFYz';
+$settings['hash_salt'] = 'yGgmugfPHryfesePNYcoumOQHWJwcFebacabiCNmYobwMgpARJvkFFKopUEdZkyT';
 
 // This will prevent Drupal from setting read-only permissions on sites/default.
 $settings['skip_permissions_hardening'] = TRUE;
@@ -43,5 +43,5 @@ $settings['class_loader_auto_detect'] = FALSE;
 
 // Set $settings['config_sync_directory'] if not set in settings.php.
 if (empty($settings['config_sync_directory'])) {
-  $settings['config_sync_directory'] = '../config/sync';
+  $settings['config_sync_directory'] = 'sites/default/files/sync';
 }

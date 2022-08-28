@@ -29,6 +29,7 @@ in web/sites/settings.ddev.php for example, confirm sync config:
   cp DATABASE.sql web/ && \
   ddev drush sql-drop -y && \
   ddev drush sqlc < DATABASE.sql && \
+  ddev drush cr && \
   rm web/DATABASE.sql
   ```
 
