@@ -29,8 +29,12 @@ in web/sites/settings.ddev.php confirm sync config:
   rm web/DATABASE.sql
   ```
 
+### Navigate to site
 
-## Admin user
+Navigate to http://drupal-hands-on.ddev.site/
+
+
+### Admin user
 
   username: admin
 
