@@ -18,7 +18,10 @@ in web/sites/settings.ddev.php for example, confirm sync config:
   }
   ```
 
-
+### Install dependencies
+  ```bash
+  ddev composer install
+  ```
 
 ### Load database dump
 
