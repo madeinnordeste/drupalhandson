@@ -1,0 +1,22 @@
+uuid: 1172aa68-0f73-424d-ab08-6fb1fe24930d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupalhandson
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: drupalhandson_local_tasks
+theme: drupalhandson
+region: header
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

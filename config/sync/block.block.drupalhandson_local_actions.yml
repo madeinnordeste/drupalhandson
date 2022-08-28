@@ -1,0 +1,20 @@
+uuid: 980106e4-f8fd-462c-a5d9-879e1e9dfa70
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupalhandson
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: drupalhandson_local_actions
+theme: drupalhandson
+region: header
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }
